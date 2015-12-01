@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+
+body {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  color: #888;
+  display: block;
+  margin: 8px 22px 8px 22px;
+  overflow: hidden;
+  width: 90%; 
+}
+
+table{
+	border: 1px solid #ffffff;
+	color: blue;
+	margin: 0 0 40px 0
+	width: 100%
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2)
+	display: table
+	@media screen and (max-width: 580px)
+}
+
+tr{
+	background: #f6f6f6
+    background: #e9e9e9
+}
+
+th{
+	font-weight: 900
+    color: #ffffff
+    background: #ea6153
+}
+
+td{
+	padding: 6px 12px
+}
